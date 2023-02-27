@@ -1,13 +1,12 @@
 import React from 'react'
-
+import './index.css'
 
 const Footer = () => {
   return (
-    <div className='container-fluid d-flex justify-content-center mb-0'>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-github"></i>
-        
-    </div>
+    <footer className='container-fluid bg-dark text-center'>
+        <i class="fa-brands text-light fa-linkedin"></i>
+        <i class="fa-brands text-light fa-github"></i>    
+    </footer>
   )
 }
 

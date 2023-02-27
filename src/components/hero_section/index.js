@@ -3,6 +3,14 @@ import './index.css'
 import logo from '../../images/hello-there-sticker.png'
 
 const HeroSection = () => {
+
+  const handleClickScroll = () =>{
+    const form = document.getElementById('contact-section');
+    if (form) {
+      form.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
   return (
     <div id='hero-section' className=' hero container-fluid bg-dark py-5'>
         <div className='container'>
@@ -27,7 +35,7 @@ const HeroSection = () => {
 
               <div className='row gap-2 d-flex justify-content-sm-center justify-content-md-end'>
                 <button type="button" class="btn btn-success col-md-2 col-sm-8 btn-lg ">Skills</button>
-                <button type="button" class="btn btn-success col-md-2 col-sm-8 btn-lg ">Contact me</button>
+                <button type="button" class="btn btn-success col-md-2 col-sm-8 btn-lg" onClick={handleClickScroll}>Contact me</button>
               </div>
 
           </div>
