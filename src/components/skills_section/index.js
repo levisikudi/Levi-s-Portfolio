@@ -3,7 +3,7 @@ import './index.css'
 
 const Skills = () => {
   return (
-    <div className='container'>
+    <div id='skills-section'className='container'>
         <div className='row'>
             <i class="fa-brands skill col fa-html5"></i>
             <i class="fa-brands skill col fa-css3"></i>

@@ -1,11 +1,11 @@
 .hero{
-    width: 100%;
-  
+    min-height: 95vh;
 }
 
 .title{
-    font-size: 5rem;
+    font-size: 6.5rem;
 }
+
 p{
     font-family: monospace;
 }

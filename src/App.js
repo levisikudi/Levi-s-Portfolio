@@ -9,8 +9,10 @@ import Skills from './components/skills_section';
 function App() {
   return (
     <div className="App">
+      
         <Navbar />
         <HeroSection />
+      
         <Skills />
         <Projects />
         <Contact />

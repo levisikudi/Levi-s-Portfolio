@@ -3,7 +3,7 @@ import './index.css'
 
 const Projects = () => {
   return (
-    <div className='container my-5 py-5'>
+    <div id='projects-section'className='container my-5 py-5'>
         <h1 className='display-4 text-center'>Projects</h1>
         <div className='row border-light'>
             <div className='lef col border'>Project Screenshot</div>
