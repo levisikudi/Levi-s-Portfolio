@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <nav className="navbar navbar-expand-md sticky-top navbar-dark bg-dark  ">
         <div className="container-fluid">
             <div className="navbar-brand">Levi's</div>
             <button className="navbar-toggler" type='button' data-bs-toggle="collapse" data-bs-target="#expandation">

@@ -1,0 +1,11 @@
+.hero{
+    min-height: 95vmin;
+    /* min-width: 70vw; */
+}
+
+.title{
+    font-size: 5rem;
+}
+p{
+    font-family: monospace;
+}
