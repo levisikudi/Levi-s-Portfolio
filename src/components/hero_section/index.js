@@ -3,7 +3,7 @@ import './index.css'
 
 const HeroSection = () => {
   return (
-    <div className=' hero container-fluid bg-dark '>
+    <div className=' hero container-fluid bg-dark mb-5'>
         <div className='container'>
             <p className='text-success'>&lt;name&gt;</p>
             <h1 className='text-light title'>Levi Sikudi</h1>

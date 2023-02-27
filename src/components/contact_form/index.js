@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="container">
+    <div className="container my-5 py-5">
         <h1 className="display-4 text-center">Let's work together!</h1>
         <form action="#home">
             <div className="row">
@@ -19,7 +19,9 @@ const Contact = () => {
                 <label for="message" className="form-label">Message</label>
                 <textarea className="form-control" id="message" rows="3"></textarea>
             </div>
-            <button type="submit" className="btn btn-success">Send!</button>
+            <div className='d-flex justify-content-center'>
+                <button type="submit" className="btn btn-success px-5 ">Send!</button>
+            </div>
 
         </form>
     </div>
