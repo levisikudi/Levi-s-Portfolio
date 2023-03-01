@@ -1,6 +1,12 @@
 footer{
-    height: 3rem;
+    height: auto;
 }
 i{
   font-size: 1.5rem;
+  color: white;
+
+}
+i:hover{
+    cursor: pointer;
+    color: rgb(40, 160, 74)
 }

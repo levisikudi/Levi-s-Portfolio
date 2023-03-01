@@ -12,15 +12,15 @@ const HeroSection = () => {
   }
 
   return (
-    <div id='hero-section' className=' hero container-fluid bg-dark py-5'>
+    <div id='hero-section' className=' hero container-fluid py-5'>
         <div className='container'>
 
           <div className='row'>
           
               <div className='col d-flex row'>
-                  <p className='text-success  '>&lt;name&gt;</p>
-                  <h1 className='text-light title '>Levi Sikudi</h1>
-                  <p className='text-success '>&lt;profession&gt;</p>
+                  <p className='text-success  code'>&lt;name&gt;</p>
+                  <h1 className='title display-2'>Levi Sikudi</h1>
+                  <p  className='text-success code'>&lt;profession&gt;</p>
                   <h2 className='display-4 text-light-emphasis'>I am a Software Engineer.</h2>
               </div>
           
@@ -34,8 +34,7 @@ const HeroSection = () => {
               </div>
 
               <div className='row gap-2 d-flex justify-content-sm-center justify-content-md-end'>
-                <button type="button" class="btn btn-success col-md-2 col-sm-8 btn-lg ">Skills</button>
-                <button type="button" class="btn btn-success col-md-2 col-sm-8 btn-lg" onClick={handleClickScroll}>Contact me</button>
+                <button type="button" class="btn btn-outline-success col-md-3 py-3 col-sm-8 btn-lg" onClick={handleClickScroll}>Contact me</button>
               </div>
 
           </div>

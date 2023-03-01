@@ -3,9 +3,16 @@
 }
 
 .title{
-    font-size: 6.5rem;
+    /* font-size: 6.5rem; */
+    color: rgba(255, 136, 0, 0.9);
 }
 
-p{
+.code{
     font-family: monospace;
+}
+#hero-section{
+    background-image: url(../../images/mars.png);
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
