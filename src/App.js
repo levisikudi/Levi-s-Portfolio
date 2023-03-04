@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/about';
 import Contact from './components/contact_form';
 import Footer from './components/footer';
 import HeroSection from './components/hero_section';
@@ -12,7 +13,7 @@ function App() {
       
         <Navbar />
         <HeroSection />
-      
+        <About />
         <Skills />
         <Projects />
         <Contact />

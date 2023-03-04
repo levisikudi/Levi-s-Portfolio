@@ -10,3 +10,6 @@ i:hover{
     cursor: pointer;
     color: rgb(40, 160, 74)
 }
+a{
+  text-decoration: none;
+}

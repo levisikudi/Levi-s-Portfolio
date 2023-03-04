@@ -1,18 +1,17 @@
-.hero{
-    min-height: 95vh;
-}
-
-.title{
-    /* font-size: 6.5rem; */
+h1{
     color: rgba(255, 136, 0, 0.9);
 }
 
-.code{
-    font-family: monospace;
+h2{
+    color: rgba(203, 203, 203, .9);
 }
-#hero-section{
-    background-image: url(../../images/mars.png);
-    background-position: left center;
-    background-size: cover;
-    background-repeat: no-repeat;
+
+.main{
+    background: white url(../../images/mars.png) no-repeat center center;
+
+}
+
+.color-overlay{
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
 }
