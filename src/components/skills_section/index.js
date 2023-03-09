@@ -36,9 +36,36 @@ const Skills = () => {
             </i>
         </div>
         <div className='col-md-7 text-end d-flex align-items-center row'>
-          <p className='col-12'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit accusamus? Iure adipisci architecto dignissimos beatae error iste, amet facilis at nostrum sit, aut eum assumenda est! Porro, sequi voluptatibus?</p>
-          <p className='col-12'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit accusamus? Iure adipisci architecto dignissimos beatae error iste, amet facilis at nostrum sit, aut eum assumenda est! Porro, sequi voluptatibus?
+          <p className='col-12 d-flex justify-content-around'>
+           <div>
+              <h1>Frontend</h1>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript ES6</li>
+                <li>React</li>
+                
+                </ul>
+            </div>
+           <div>
+              <h1>Backend</h1>
+              <ul>
+                <li>MongoDB</li>
+                <li>Node.js</li>
+                <li>Mongoose</li>
+                
+              </ul>
+            </div>
+           <div>
+              <h1>Tools</h1>
+              <ul>
+                <li>Bootstrap</li>
+                <li>Github & Git</li>
+                <li>Command Line</li>
+                <li>Socket.io</li>
+               
+              </ul>
+            </div>
           </p>
         </div>
       </div>
