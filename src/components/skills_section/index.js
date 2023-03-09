@@ -38,7 +38,7 @@ const Skills = () => {
         <div className='col-md-7 text-end d-flex align-items-center row'>
           <p className='col-12 d-flex justify-content-around'>
            <div>
-              <h1>Frontend</h1>
+              <h1 className='display-6 mb-5'>Frontend</h1>
               <ul>
                 <li>HTML5</li>
                 <li>CSS3</li>
@@ -48,7 +48,7 @@ const Skills = () => {
                 </ul>
             </div>
            <div>
-              <h1>Backend</h1>
+              <h1 className='display-6 mb-5'>Backend</h1>
               <ul>
                 <li>MongoDB</li>
                 <li>Node.js</li>
@@ -57,7 +57,7 @@ const Skills = () => {
               </ul>
             </div>
            <div>
-              <h1>Tools</h1>
+              <h1 className='display-6 mb-5'>Tools</h1>
               <ul>
                 <li>Bootstrap</li>
                 <li>Github & Git</li>
