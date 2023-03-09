@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
 import seriousMemoji from '../../images/serious-sticker.png'
+import portfolio from '../../images/Portfolio.png'
 
 const Projects = () => {
 
@@ -32,27 +33,25 @@ const Projects = () => {
             <div className=' col p-3'>
               <h3>Product Store</h3>
               <p>
-                The Product Store is a basic Web site built by MongoDB, JavaScript and Node.JS as an exhibit of my skills at that time. It 
-              </p>
+                The Product Store is a basic Web site built by MongoDB, JavaScript and Node.JS as an exhibit of my skills at that time. It's basic functionality tests the CRUD data management and database-model relations.</p>
               <div>
-                <button className='btn btn-outline-success me-2'>Live</button>
+                {/* <button className='btn btn-outline-success me-2'>Live</button> */}
                 <button className='btn btn-outline-success'>Code</button>
               </div>
             </div>
         </div>
         <div className='row '>
-            <div className=' col'>
-              <img className='img-fluid' src={seriousMemoji}/>
+            <div className='col container text-center'>
+              <img className='img-fluid' src={portfolio}/>
             </div>
             <div className=' col p-3'>
-              <h3 >The Serious Emoji</h3>
+              <h3>My Portfolio</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit accusamus? Iure adipisci architecto  dignissimos beatae error iste, amet facilis at nostrum sit, aut eum assumenda est! Porro, sequi voluptatibus?<br/>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit accusamus? Iure adipisci architecto dignissimos beatae error iste, amet facilis at nostrum sit, aut eum assumenda est! Porro, sequi voluptatibus?
+                This very Portfolio, created by React tests the interelational connections between functional components. As well as serving it's purpose as my online 'resume', it is also a website where I can track my progress and key in my journey.
               </p>
-              <div>
+              <div >
                 <button className='btn btn-outline-success me-2'>Live</button>
-                <button className='btn btn-outline-success'>Code</button>
+                <a href='https://github.com/levisikudi/Levi-s-Portfolio' target='#' className='btn btn-outline-success'>Code</a>
               </div>
             </div>
         </div>
