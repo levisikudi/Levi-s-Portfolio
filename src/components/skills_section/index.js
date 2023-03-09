@@ -35,10 +35,10 @@ const Skills = () => {
               <p className='pt-2'>Command Line</p>
             </i>
         </div>
-        <div className='col-md-7 d-flex text-end justify-content-center align-items-center px-2'>
-          <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit accusamus? Iure adipisci architecto dignissimos beatae error iste, amet facilis at nostrum sit, aut eum assumenda est! Porro, sequi voluptatibus?<br/>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit accusamus? Iure adipisci architecto dignissimos beatae error iste, amet facilis at nostrum sit, aut eum assumenda est! Porro, sequi voluptatibus?
+        <div className='col-md-7 text-end d-flex align-items-center row'>
+          <p className='col-12'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit accusamus? Iure adipisci architecto dignissimos beatae error iste, amet facilis at nostrum sit, aut eum assumenda est! Porro, sequi voluptatibus?</p>
+          <p className='col-12'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit accusamus? Iure adipisci architecto dignissimos beatae error iste, amet facilis at nostrum sit, aut eum assumenda est! Porro, sequi voluptatibus?
           </p>
         </div>
       </div>
