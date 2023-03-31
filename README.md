@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Catnip
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+'Because you have FaceBook!'
 
-## Available Scripts
+## Outline
 
-In the project directory, you can run:
+-Introduction
+-Technology
+-Getting Started
+-Unsolved Problems
+-Future Enhancements
 
-### `npm start`
+### Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This app is essentially an App for cat owners who feel like their furry feline friends are not spending enough time with their species. The app allows you to connect with other cat owners in your area and set up 'cat dates' for them. It has a search and chat functionality that is feline-centric ; if we could, we would let the cats operate it themselves! Humans in this case are just the intermediary. As per now it is on v1 with only its most basic functionalities up and running.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Technology
 
-### `npm test`
+Catnip uses React functional components in much of its front end functionalities.
+It heavily uses Bootsrap in styling with some basic overides being done by CSS3
+For authentification, it utilizes Passport, more specifically passport-local
+It uses an external API (Cloudinary) to host images.
+On the backend, it uses Node.js as a runtime, MongoDB as it's designated database and Express to handle server to database calls.
+Lastly, the app uses Render as its hosting service
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Getting Started
 
-### `npm run build`
+The app can be found on [https://catnip-151h.onrender.com]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Unsolved Issues`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Right now, for updated results to be seen, one has to log out then log back in. It is probably an issue to do with routing, and I am currently working on it.
+Additionally, the chat functionality still has not been built. I am making sure that I firstly get all the routes in order before I move on to the next phase.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Future Enhancements
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+They include, finishing up the main product. Testing it in the field, then slowly offering it up to the public if the demand is high.
